@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kim’s Romantic Journey 💘</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="rose-container"></div>
+
+  <!-- INTRO SCREEN -->
+  <div id="intro-screen" class="screen">
+    <div class="quote">“Every love story starts with a riddle…”</div>
+    <div class="riddle-block">
+      <h2>Riddle Me This 💌</h2>
+      <p>What never asks a question but gets answered all the time?</p>
+      <div class="choices">
+        <button data-effect="roses">A phone</button>
+        <button data-effect="hearts">A letter</button>
+        <button data-effect="sparkles">A glance</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- NEWSPAPER SCREEN -->
+  <div id="newspaper-screen" class="screen hidden">
+    <div class="newspaper">
+      <h1>WANTED</h1>
+      <h2>Kim — For Stealing Mufasa’s Heart ❤</h2>
+      <p>Known aliases: Love of Elias’ life, Queen of Hearts, Flame of Mufasa.</p>
+      <p class="quote">“Every outlaw needs a partner in love and crime.”</p>
+      <button id="next-button" class="creative-btn">🌹 Saddle Up, Gorgeous 🌹</button>
+    </div>
+  </div>
+
+  <!-- DATE OPTIONS SCREEN -->
+  <div id="date-screen" class="screen hidden">
+    <h2>Choose Your Secret Date</h2>
+    <div class="cards">
+      <div class="card" data-option="1">
+        <div class="front">💌 Click Me</div>
+        <div class="back">🍷 Cozy Day In<br>Wine + Series + Quiz</div>
+      </div>
+      <div class="card" data-option="2">
+        <div class="front">💌 Click Me</div>
+        <div class="back">🛍 Somerset Mall Trip<br>Surprise Gift!</div>
+      </div>
+      <div class="card" data-option="3">
+        <div class="front">💌 Click Me</div>
+        <div class="back">👨‍🍳 Chef Mufasa<br>3-Course Romantic Dinner</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FINAL SCREEN -->
+  <div id="final-screen" class="screen hidden">
+    <h2>You’ve made your choice, my darling 💕</h2>
+    <p>Let Mufasa know the adventure you've chosen:</p>
+    <a href="mailto:siig06boy@gmail.com?subject=My%20Date%20Choice&body=Hey Mufasa, I’ve chosen my date!" class="email-btn">💌 Email Elias</a>
+    <p>Or screenshot and send it directly to him 📸</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
